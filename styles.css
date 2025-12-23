@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('https://www.ufc.com/images/styles/background_image_lg_2x/s3/image/2022-11/111022-HERO-dan-hooker-pre-fight.jpg?h=d1cb525d&itok=gfg1I9zz')
+    no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(70px);
+
+}
+
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
